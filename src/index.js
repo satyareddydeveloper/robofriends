@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import 'tachyons'
+import CardList from './components/CardList';
+import { robots } from './components/robots';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
